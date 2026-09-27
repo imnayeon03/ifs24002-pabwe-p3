@@ -54,7 +54,7 @@ function switchTab(name) {
   tabButtons.forEach((btn) => {
     const active = btn.dataset.tab === name;
     btn.setAttribute("aria-selected", String(active));
-    btn.classList.toggle("bg-teal-600", active);
+    btn.classList.toggle("bg-teal-700", active);
     btn.classList.toggle("text-white", active);
     btn.classList.toggle("shadow", active);
     btn.classList.toggle("text-slate-600", !active);
